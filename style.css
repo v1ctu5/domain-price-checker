@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    background: #1e1e2f;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    padding: 20px;
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  .search-container {
+    margin: 50px auto;
+    max-width: 600px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 15px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    background: #2575fc;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #6a11cb;
+  }
+  
+  #results {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  /* Results Table */
+  #results table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  #results th, #results td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #results th {
+    background-color: #2575fc;
+    color: white;
+  }
+  
+  #results tr:nth-child(even) {
+    background-color: #0f0f38;
+  }
+  
+  #results a {
+    color: #2575fc;
+    text-decoration: none;
+  }
+  
+  #results a:hover {
+    text-decoration: underline;
+  }
+  
+  /* New CSS for the loading message */
+  .loading-message {
+    color: #f5a623; /* Orange color for better visibility */
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Change webboy text color to orange */
+   .webboy {
+    color: orange;
+  }
+  /* Footer */
+  footer {
+    padding: 10px;
+    background-color: #1e1e2f;
+    color: #fff;
+    font-size: 3rem;
+  }
+  
